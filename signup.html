@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <section>
+        <h1 class="text-center formBox py-3 w-25 mx-auto rounded-4 my-5">Smart Login System</h1>
+        <div class="formBox container w-50 text-center my-5 p-5 ">
+            <div>
+                <h2> Signup Page </h2>
+                <input id="signUpName" class="form-control my-3" type="text" placeholder="Enter your name">
+                <input id="signUpEmail" class="form-control my-3" type="email" placeholder="Enter your email">
+                <input id="signUpPassword" class="form-control mb-4" type="password" placeholder="Enter your password">
+                <p id="signupValid"></p>
+                <button id="signupBtn" onclick="signUp()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+                <p class="text-white">You have an account? <a class="text-white loginA" href="./index.html">Signin</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

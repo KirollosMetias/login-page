@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+    height: calc(100vh - 48px);
+    background-image: url(../img.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: #33186B ;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+}
+h2{
+    color: #17A2B8;
+    font-weight: 600;
+}
+.formBox{
+    background: #48126152;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+input{
+    background-color: transparent !important;
+    color: white !important;
+}
+.btn-outline-info{
+    transition: all .3s;
+}
+.btn-outline-info:hover{
+    color: #FFFFFF !important;
+}
+.loginA{
+    text-decoration: none;
+    transition: all .3s;
+}
+.loginA:hover{
+    text-decoration: underline;
+}
+input::placeholder,
+textarea::placeholder {
+    color: rgb(158, 158, 158) !important;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+#navHead a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.homeContent{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    
+}
+nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+#home a{
+    font-weight: 700;
+    font-size: 20px;
+}
+.homeContainer{
+    height: 75vh !important;
+}
